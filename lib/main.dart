@@ -11,10 +11,10 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: OnboardingScreen(),
+      // home: OnboardingScreen(),
       // home: FileManagerScreen2()),
       // home: FileManagerScreen3(),
-      //  home: MainScreen(),
+        home: MainScreen(),
       // home: CloudStorageScreen(),
     ),
   );
